@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/vendopan/static/css/main.a7d7fec3.chunk.css",
+    "main.js": "/vendopan/static/js/main.f79b9e03.chunk.js",
+    "main.js.map": "/vendopan/static/js/main.f79b9e03.chunk.js.map",
+    "runtime-main.js": "/vendopan/static/js/runtime-main.63283a2b.js",
+    "runtime-main.js.map": "/vendopan/static/js/runtime-main.63283a2b.js.map",
+    "static/js/2.060eb7c8.chunk.js": "/vendopan/static/js/2.060eb7c8.chunk.js",
+    "static/js/2.060eb7c8.chunk.js.map": "/vendopan/static/js/2.060eb7c8.chunk.js.map",
+    "index.html": "/vendopan/index.html",
+    "precache-manifest.f03e7cb62dd77cab57a69a9a7574f765.js": "/vendopan/precache-manifest.f03e7cb62dd77cab57a69a9a7574f765.js",
+    "service-worker.js": "/vendopan/service-worker.js",
+    "static/css/main.a7d7fec3.chunk.css.map": "/vendopan/static/css/main.a7d7fec3.chunk.css.map",
+    "static/js/2.060eb7c8.chunk.js.LICENSE.txt": "/vendopan/static/js/2.060eb7c8.chunk.js.LICENSE.txt",
+    "static/media/fondo.png": "/vendopan/static/media/fondo.6e2c8f8a.png",
+    "static/media/pan.png": "/vendopan/static/media/pan.2c4f09ce.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.63283a2b.js",
+    "static/js/2.060eb7c8.chunk.js",
+    "static/css/main.a7d7fec3.chunk.css",
+    "static/js/main.f79b9e03.chunk.js"
+  ]
+}
