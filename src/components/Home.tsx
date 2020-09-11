@@ -3,16 +3,23 @@ import { Grid, useMediaQuery, useTheme, createStyles, Theme, makeStyles, Typogra
 import pan from "../images/pan.png";
 import bckg from "../images/fondo.png";
 
+const colors = {
+	primary: "#3C4F76",
+	secondary: "#7da1ff",
+	tertiary: "#FFA310",
+	background: "#fdfdfd"
+}
+
 const Home = () => {
 	const theme = useTheme();
 	const mobile = useMediaQuery(theme.breakpoints.down('sm'));
 	const useStyles = makeStyles((theme: Theme) => createStyles({
 		root: {
-			background: `linear-gradient(346deg, #ffffff, #fff4ba)`,
+			background: colors.background,
 			backgroundSize: "400% 400%",
 			height: "100%",
-			color: "#ffdb57",
-			textShadow: `2px 2px #000`,
+			color: colors.tertiary,
+			textShadow: `2px 2px ${colors.secondary}`,
 			animation: "$backgroundColorAnimation 3s infinite",
 			overflowY: "hidden"
 		},
@@ -65,15 +72,15 @@ const Home = () => {
 			fontStyle: "italic",
 			fontSize: mobile? "10vw" : "",
 			width: "max-content",
-			color: "black",
-			textShadow: `2px 2px #ffdb57`,
+			color: colors.primary,
+			textShadow: `2px 2px ${colors.secondary}`,
 			transitionProperty: "textDecoration",
 			transitionDuration: "400ms",
 			margin: "0 auto",
 			textDecoration: "none",
 			display: "block",
 			"&:hover": {
-				borderBottom: "solid 1vh #ffdb57",
+				borderBottom: `solid 1vh ${colors.secondary}`,
 				animation: "$underlineAnimation 400ms",
 				boxShadow: `0px 8px 7px -9px`
 			}
@@ -121,7 +128,7 @@ const Home = () => {
 					style={{ width: mobile ? "90vw" : "50vw" }}
 					alt="sourdough bread Vendopan"
 				/>
-				<div style={{ width: "100%", position: "absolute", bottom: 40, }}>
+				<div style={{ width: "100%", position: "absolute", bottom: 30, }}>
 					<Typography
 						variant="h2"
 						align="center"
@@ -135,7 +142,7 @@ const Home = () => {
 				</div>
 			</Grid>
 			<Grid item container xs={12} style={{position: "absolute", bottom: 10}} justify="center">
-				<Typography target="_blank" href="https://www.gregorioospina.com" component="a" style={{textDecoration: "none", textShadow: "none"}} variant="overline">
+				<Typography target="_blank" href="https://www.gregorioospina.com" component="a" style={{textDecoration: "none", textShadow: "none", color: colors.tertiary}} variant="overline">
 					By Grego
 				</Typography>
 			</Grid>
