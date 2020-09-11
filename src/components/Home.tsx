@@ -142,7 +142,7 @@ const Home = () => {
 				</div>
 			</Grid>
 			<Grid item container xs={12} style={{position: "absolute", bottom: 10}} justify="center">
-				<Typography target="_blank" href="https://www.gregorioospina.com" component="a" style={{textDecoration: "none", textShadow: "none", color: colors.tertiary}} variant="overline">
+				<Typography target="_blank" href="https://www.gregorioospina.com" component="a" style={{textDecoration: "none", textShadow: "none", color: colors.primary}} variant="overline">
 					By Grego
 				</Typography>
 			</Grid>
