@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/vendopan/precache-manifest.77f86f3c5fc5b80e28661154eae65ec2.js"
+  "/vendopan/precache-manifest.a37c900e60beaca1b1ca8a572a24ea06.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "409d4a04b648aed9bb2405f51c9ca271",
+    "revision": "b207e87aeb4001f8f2f69c7ddc43385f",
     "url": "/vendopan/index.html"
   },
   {
-    "revision": "8cc79f3373f396409851",
+    "revision": "87630026273f21cf7dd7",
     "url": "/vendopan/static/css/main.a7d7fec3.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vendopan/static/js/2.060eb7c8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8cc79f3373f396409851",
-    "url": "/vendopan/static/js/main.833b122e.chunk.js"
+    "revision": "87630026273f21cf7dd7",
+    "url": "/vendopan/static/js/main.94ef6cf0.chunk.js"
   },
   {
     "revision": "689c9d995c0e63324aa4",
     "url": "/vendopan/static/js/runtime-main.63283a2b.js"
   },
   {
-    "revision": "a1b709eeedec180740d176e9674fbe22",
-    "url": "/vendopan/static/media/fondo.a1b709ee.png"
+    "revision": "cc93ba45b7b26b079e763ad5395c8e2d",
+    "url": "/vendopan/static/media/fondo.cc93ba45.png"
   },
   {
     "revision": "2c4f09ce9788154e32f40eb5c98e86ba",
